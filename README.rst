@@ -53,10 +53,18 @@ In the example below the page “Benutzer” with the ``id`` 3 is selected.
    :alt: Plugin configuration in the TYPO3 backend
 
 
-=========
-Reference
-=========
-To be updated.
+====================
+TypoScript reference
+====================
+
+Setup
+=====
+``template``
+  Change the template file.
+
+  Example::
+
+    plugin.tx_changepassword_pi.template = EXT:myext/res/template.html
 
 
 =======
